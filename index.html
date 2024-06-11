@@ -6,6 +6,7 @@
         <title>meji meal finder</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
     </head>
 
     <body>
@@ -20,13 +21,13 @@
           <input placeholder="Search" type="search" class="input">
       </div>
       </form>
-
-        <ul>
-            <li>Breakfast</li>
-            <li>Lunch</li>
-            <li>Dinner</li>
-        </ul>
-       </nav>
+      
+      <ul>
+        <li><button>BREAKFAST</button></li>
+        <li><button>LUNCH</button></li>
+        <li><button>DINNER</button></li>
+      </ul>
+    </nav>
 
       <main>
         <div class="container">
@@ -37,7 +38,7 @@
                 <p class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum recusandae dignissimos modi placeat 
                     numquam illum esse quaerat odio saepe harum?
                 </p>
-                <div data-tooltip="Price:-$20" class="button">
+                <div data-tooltip="Price:-$20" class="price-button">
                   <div class="button-wrapper">
                     <div class="text">Buy Now</div>
                       <span class="secondIcon">
@@ -55,28 +56,12 @@
     <section class="ingredients"></section>
 
     <section class="about" id="about">
-        <h3>About Us</h3>
+        <h3>About this Project</h3>
         <p>
-          Our primary objective is to help get easy access to food and their recipes.
+          Primary objective is to help get easy access to food and their recipes. A website that simplifies the daily dilemma of "what's for dinner?" 
+          by connecting people with delicious, personalized meal options.
         </p>
-        <div class="persons">
-          <div class="person-1">
-            <img src="assets/images/john.jpg" alt="John Doe" />
-            <p class="name">meji</p>
-            <p class="role">Founder</p>
-          </div>
-          <div class="person-2">
-            <img src="assets/images/jane.jpg" alt="Jane Doe" />
-            <p class="name">meji</p>
-            <p class="role">MD</p>
-          </div>
-          <div class="person-3">
-            <img src="assets/images/jnr.jpg" alt="John Doe Jnr" />
-            <p class="name">meji</p>
-            <p class="role">ffff</p>
-          </div>
-        </div>
-      </section>
+        </section>
 
         <script src="app.js"></script>
     </body>
